@@ -16,12 +16,7 @@ def check_submit_thread():
 
 
 
-def timereps(reps):
-    start = time()
-    for i in range(0, reps):
-        os.listdir('/')
-    end = time()
-    return (end - start) / reps
+
   
 def run():
   with open('file.txt','w') as f:
@@ -31,14 +26,18 @@ def run():
   y = 0
   x=1
   for x in range(20):
+    
     t2.delete('1.0', END)
     t2.insert(END,f"Running Code {x*5}% done")
-    listdir_time = timereps(10000)
+    start = time()
+    for i in range(0, 10000):
+        os.listdir('/')
+    end = time()
+    listdir_time = (end - start) / 10000
     #print("This device is running %d commands per second" % (1 / listdir_time))zzz
     with open('file.txt','a') as f:
       f.write(f"\n {1 / listdir_time} Processes in {x} Interval ")
     y = y + 1/listdir_time
-    y = y+timereps(10000)
    
     x = x+1    
     with open('file.txt','a') as f:
@@ -52,6 +51,7 @@ def run():
 
 
 window = Tk()
+window.title('Benchmark')
 
 t1 = Text(window,height=1,width=52)
 t1.grid(row=0,column=0,columnspan=3)
