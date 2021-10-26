@@ -1,6 +1,28 @@
 import os
 from time import time
 from tkinter import *
+import shutil
+import threading
+
+def start_submit_thread(event):
+    global submit_thread
+    submit_thread = threading.Thread(target=run)
+    submit_thread.start()
+    window.after(20, check_submit_thread)
+
+def check_submit_thread():
+    if submit_thread.is_alive():
+        window.after(20, check_submit_thread)
+
+
+
+def timereps(reps):
+    start = time()
+    for i in range(0, reps):
+        os.listdir('/')
+    end = time()
+    return (end - start) / reps
+  
 def run():
   with open('file.txt','w') as f:
     f.write("Score per 20 processes")
@@ -9,17 +31,18 @@ def run():
   y = 0
   x=1
   for x in range(20):
+    t2.delete('1.0', END)
+    t2.insert(END,f"Running Code {x*5}% done")
     listdir_time = timereps(10000)
-    #print("This device is running %d commands per second" % (1 / listdir_time))
+    #print("This device is running %d commands per second" % (1 / listdir_time))zzz
     with open('file.txt','a') as f:
       f.write(f"\n {1 / listdir_time} Processes in {x} Interval ")
-    t2.delete('1.0', END)
-    t2.insert(END,f"{x*5}% done")
-    x = x+1
     y = y + 1/listdir_time
-    
-  with open('file.txt','a') as f:
-    f.write(f"\n {round(y)} is the final Score of all the 20 Intervals ")
+    y = y+timereps(10000)
+   
+    x = x+1    
+    with open('file.txt','a') as f:
+      f.write(f"\n {round(y)} is the final Score of all the 20 Intervals ")
   t2.delete('1.0', END)
   t2.insert(END,f"{round(y)} is your score")
   t1.delete('1.0', END)
@@ -37,7 +60,7 @@ t1.insert(END,"This Program tells you The Benchmark of your device")
 l1 = Label(window,text="Click this Button to know Your Score",height=1,width=30)
 l1.grid(row=1,column=0)
 
-b1 = Button(window,text="Calculate",width=12,command=run)
+b1 = Button(window,text="Calculate",width=12,command=lambda:start_submit_thread(None))
 b1.grid(row=1,column=1)
 
 
@@ -48,15 +71,4 @@ t2=Text(window,height=1,width=40)
 t2.grid(row=2,column=1,columnspan=2)
 
 
-
-
-
-#print("This program Will tell you the Cpu Benchmark score of Your Device Please Wait 30s-45s Depending on The Processor")
-def timereps(reps):
-    t1.insert(END,"Please Wait 30s-45s Depending on The Processor")
-    start = time()
-    for i in range(0, reps):
-        os.listdir('/')
-    end = time()
-    return (end - start) / reps
-
+window.mainloop()
