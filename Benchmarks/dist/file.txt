@@ -1,0 +1,21 @@
+Score per 20 processes
+ 956.5725420222261 Processes in 0 Interval 
+ 501.0522170144761 Processes in 1 Interval 
+ 479.40838754823653 Processes in 2 Interval 
+ 433.1956823167353 Processes in 3 Interval 
+ 303.8026343284162 Processes in 4 Interval 
+ 2965.906707568793 Processes in 5 Interval 
+ 3419.581694970473 Processes in 6 Interval 
+ 4087.4247903543765 Processes in 7 Interval 
+ 5526.91434602064 Processes in 8 Interval 
+ 4834.125112704518 Processes in 9 Interval 
+ 5150.4563484413075 Processes in 10 Interval 
+ 6937.566099759402 Processes in 11 Interval 
+ 6768.257398473009 Processes in 12 Interval 
+ 6533.1410604478915 Processes in 13 Interval 
+ 7452.432001486824 Processes in 14 Interval 
+ 7210.5597302751585 Processes in 15 Interval 
+ 7635.487771999088 Processes in 16 Interval 
+ 7588.673757358798 Processes in 17 Interval 
+ 7143.380972291175 Processes in 18 Interval 
+ 6795.032824887652 Processes in 19 Interval 
