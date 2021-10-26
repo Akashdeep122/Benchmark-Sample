@@ -1,0 +1,41 @@
+Score per 20 processes
+ 4123.666824398108 Processes in 0 Interval 
+ 4124 is the final Score of all the 20 Intervals 
+ 4164.194376143854 Processes in 1 Interval 
+ 8288 is the final Score of all the 20 Intervals 
+ 4283.935497227849 Processes in 2 Interval 
+ 12572 is the final Score of all the 20 Intervals 
+ 4520.366634007571 Processes in 3 Interval 
+ 17092 is the final Score of all the 20 Intervals 
+ 4196.0184931563035 Processes in 4 Interval 
+ 21288 is the final Score of all the 20 Intervals 
+ 4458.071601814433 Processes in 5 Interval 
+ 25746 is the final Score of all the 20 Intervals 
+ 4407.705253711047 Processes in 6 Interval 
+ 30154 is the final Score of all the 20 Intervals 
+ 4326.620268385746 Processes in 7 Interval 
+ 34481 is the final Score of all the 20 Intervals 
+ 4187.94376979681 Processes in 8 Interval 
+ 38669 is the final Score of all the 20 Intervals 
+ 4333.562600821127 Processes in 9 Interval 
+ 43002 is the final Score of all the 20 Intervals 
+ 4312.797241655023 Processes in 10 Interval 
+ 47315 is the final Score of all the 20 Intervals 
+ 4502.252680653482 Processes in 11 Interval 
+ 51817 is the final Score of all the 20 Intervals 
+ 4298.5736410973705 Processes in 12 Interval 
+ 56116 is the final Score of all the 20 Intervals 
+ 4350.417875374229 Processes in 13 Interval 
+ 60466 is the final Score of all the 20 Intervals 
+ 4471.274887253472 Processes in 14 Interval 
+ 64937 is the final Score of all the 20 Intervals 
+ 4259.672940951847 Processes in 15 Interval 
+ 69197 is the final Score of all the 20 Intervals 
+ 4496.038059837565 Processes in 16 Interval 
+ 73693 is the final Score of all the 20 Intervals 
+ 4283.627922899469 Processes in 17 Interval 
+ 77977 is the final Score of all the 20 Intervals 
+ 4198.549993608536 Processes in 18 Interval 
+ 82175 is the final Score of all the 20 Intervals 
+ 4153.81345718208 Processes in 19 Interval 
+ 86329 is the final Score of all the 20 Intervals 
