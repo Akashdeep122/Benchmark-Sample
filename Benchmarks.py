@@ -40,8 +40,8 @@ def run():
     y = y + 1/listdir_time
    
     x = x+1    
-    with open('file.txt','a') as f:
-      f.write(f"\n {round(y)} is the final Score of all the 20 Intervals ")
+  with open('file.txt','a') as f:
+    f.write(f"\n {round(y)} is the final Score of all the 20 Intervals ")
   t2.delete('1.0', END)
   t2.insert(END,f"{round(y)} is your score")
   t1.delete('1.0', END)
