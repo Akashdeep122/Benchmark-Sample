@@ -1,3 +1,3 @@
 Score per 20 processes
- 5979.775168765995 Processes in 0 Interval 
- 5980 is the final Score of all the 20 Intervals 
+ 7623.893375018744 Processes in 0 Interval 
+ 5931.114685925413 Processes in 1 Interval 
