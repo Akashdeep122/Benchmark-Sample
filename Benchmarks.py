@@ -52,6 +52,7 @@ def run():
 
 window = Tk()
 window.title('Benchmark')
+window.iconphoto(False,PhotoImage(file='c://Users/jasja/OneDrive/Desktop/Benchmarksgit/Benchmark.png'))
 
 t1 = Text(window,height=1,width=52)
 t1.grid(row=0,column=0,columnspan=3)
