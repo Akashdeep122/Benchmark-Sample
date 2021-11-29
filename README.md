@@ -8,7 +8,7 @@ As for 1w4a The Exe has been put and you should download the whole folder and ma
 
 PLEASE MENTION : Using the Latest Snapshot 2w2a in Tkinter is More faster and FIxed a bug where 1 Thread was being run twice resulting in Scores being twice as they should be , We have fixed the error so Please Consider using Snapshot 2w2a
 
-Please mention: Snapshot 2w4a and 2w5a have a error which actually stop the exe from working too , please dont use them and were currenly working to add suport for linux/ debian distros, also please use 2w7a for no errors as it detects file path itself NOTE: IT ONLY SUPPORTS PYTHON 3.8 and below as __file__ is different for 3.9 and above (looking to support it too)
+Please mention: Snapshot 2w4a and 2w5a have a error which actually stop the exe from working too , please dont use them and were currenly working to add suport for linux/ debian distros, also please use 2w8a for no errors as it detects file path itself NOTE: IT ONLY SUPPORTS PYTHON 3.8 and below as (__file__) function  is different for 3.9 and above (looking to support it too).
 
 
 
