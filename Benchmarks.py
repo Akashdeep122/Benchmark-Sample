@@ -52,23 +52,16 @@ def run():
 
 window = Tk()
 window.title('Benchmark')
-<<<<<<< HEAD
-window.iconphoto(False,PhotoImage(file='c://Users/jasja/OneDrive/Desktop/Benchmarksgit/Benchmark.png'))
-
-=======
 val = __file__
 val = val.replace("Benchmarks.py","benchmark.png")
-print(val)
 window.iconphoto(False,PhotoImage(file=f'{val}'))
 window.rowconfigure(0, weight=1)
 window.columnconfigure(0, weight=1)
->>>>>>> 92e7215 (Snapshot 2w7a Fixed a big error)
 t1 = Text(window,height=1,width=52)
 t1.grid(row=0,column=0,columnspan=3)
 t1.insert(END,"This Program tells you The Benchmark of your device")
 
 l1 = Label(window,text="Click this Button to know Your Score",height=1,width=30)
-<<<<<<< HEAD
 l1.grid(row=1,column=0)
 
 b1 = Button(window,text="Calculate",width=12,command=lambda:start_submit_thread(None))
@@ -83,7 +76,6 @@ t2.grid(row=2,column=1,columnspan=2)
 
 
 window.mainloop()
-=======
 l1.grid(row=1,column=0,sticky="NSEW")
 
 b1 = Button(window,text="Calculate",width=12,command=lambda:start_submit_thread(None))
@@ -98,4 +90,3 @@ t2.grid(row=2,column=1,columnspan=2,sticky="NSEW")
 
 
 window.mainloop()
->>>>>>> 92e7215 (Snapshot 2w7a Fixed a big error)
